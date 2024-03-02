@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a project that allows you to generate a `Hebrew - English Bible` according to the Masoretic Text and the JPS 1917 Edition, then parse it into a full-scope Tanakh stored in `tanakh.json`.
+This is a project that allows you to generate a modern-format `Hebrew - English Bible` according to the Masoretic Text and the JPS 1917 Edition, then parse it into a full-scope Tanakh stored in `tanakh.json`.
 
 ## What's included?
 
