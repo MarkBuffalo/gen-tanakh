@@ -4,6 +4,12 @@
 
 This is a project that allows you to generate a `Hebrew - English Bible` according to the Masoretic Text and the JPS 1917 Edition, then parse it into a full-scope Tanakh stored in `tanakh.json`.
 
+## What's included?
+
+- TORAH – The Law: Genesis, Exodus, Leviticus, Numbers, Deuteronomy
+- NEVIIM – The Prophets: Joshua, Judges, Samuel, Kings, Isaiah, Jeremiah, Ezekiel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah and Malachi
+- KETUVIM – The Writings: Psalms, Proverbs, Job, Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, Chronicles
+
 ### Some notes
 
 - The `self.order_map` list object is provided for outputting the Tanakh in the correct order if you wish.  
