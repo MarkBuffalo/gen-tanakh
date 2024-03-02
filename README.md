@@ -16,7 +16,7 @@ This is a project that allows you to generate a `Hebrew - English Bible` accordi
 ### Installation
 
 ```
-git clone https://github.com/MarkBuffalo/gen-tanakh.git && cd gen tanakh && chmod +x parse_mm_db.py
+git clone https://github.com/MarkBuffalo/gen-tanakh.git && cd gen-tanakh && chmod +x parse_mm_db.py
 ```
 
 ### Running the script
