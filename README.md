@@ -27,4 +27,4 @@ git clone https://github.com/MarkBuffalo/gen-tanakh.git && cd gen-tanakh && chmo
 
 ### Using the output
 
-At this point, you can simply use `tanakh.json` to enrich your APIs / Web Apps / whatever. The included `json` file has already done this generation for you.
+At this point, you can simply use `tanakh.json` to enrich your APIs / Web Apps / whatever. The included `tanakh.json` file is already included.
