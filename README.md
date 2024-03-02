@@ -11,4 +11,20 @@ This is a project that allows you to generate a `Hebrew - English Bible` accordi
 - The generated Tanakh is already provided in this project.
 - You are free to enrich this content however you deem
 
+## Usage
 
+### Installation
+
+```
+git clone https://github.com/MarkBuffalo/gen-tanakh.git && cd gen tanakh && chmod +x parse_mm_db.py
+```
+
+### Running the script
+
+```
+./parse_mm_db.py
+```
+
+### Using the output
+
+At this point, you can simply use `tanakh.json` to enrich your APIs / Web Apps / whatever. The included `json` file has already done this generation for you.
