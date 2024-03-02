@@ -6,11 +6,52 @@ This is a project that allows you to generate a `Hebrew - English Bible` accordi
 
 ## What's included?
 
-- TORAH – The Law: Genesis, Exodus, Leviticus, Numbers, Deuteronomy
-- NEVIIM – The Prophets: Joshua, Judges, Samuel, Kings, Isaiah, Jeremiah, Ezekiel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah and Malachi
-- KETUVIM – The Writings: Psalms, Proverbs, Job, Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, Chronicles
+### TORAH – The Law 
+ - Genesis
+ - Exodus
+ - Leviticus
+ - Numbers
+ - Deuteronomy
 
-### Some notes
+### NEVIIM – The Prophets
+- Joshua
+- Judges
+- 1 Samuel
+- 2 Samuel
+- 1 Kings
+- 2 Kings
+- Isaiah
+- Jeremiah
+- Ezekiel
+- Hosea
+- Joel
+- Amos
+- Obadiah
+- Jonah
+- Micah
+- Nahum
+- Habakkuk
+- Zephaniah
+- Haggai
+- Zechariah
+- Malachi
+
+### KETUVIM – The Writings
+- Psalms
+- Proverbs
+- Job
+- Song of Songs
+- Ruth
+- Lamentations
+- Ecclesiastes
+- Esther
+- Daniel
+- Ezra
+- Nehemiah
+- 1 Chronicles
+- 2 Chronicles
+
+## Some notes
 
 - The `self.order_map` list object is provided for outputting the Tanakh in the correct order if you wish.  
 - The contents are already provided in this library, unzipped.
