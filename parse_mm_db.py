@@ -107,11 +107,14 @@ class MechonMamreParser:
 
                     if g is not None and 'pt' in g and '.htm' in g and not 'pt0.htm' in g:
 
-                        if "b" in g and "Ezra" == book and not "a" in g:
+                        if "b" in g and "Ezra" == book and "a" not in g:
                             self.bible_base["Nehemiah"].append(g)
 
-                        elif "a" in g and "Ezra" == book and not "b" in g:
+                        elif "a" in g and "Ezra" == book and "b" not in g:
                             self.bible_base["Ezra"].append(g)
+
+                        elif "Psalms" in book:
+                            self.bible_base[book].append(g)
 
                         elif "1" in book and "a" in g:
                             self.bible_base[book].append(g)
@@ -119,7 +122,6 @@ class MechonMamreParser:
                         elif "2" in book and "b" in g:
                             new_book_name = book.replace("1", "2")
                             self.bible_base[new_book_name].append(g)
-
 
                         elif "1" not in book and "2" not in book and not "b" in g and not "Nehemiah" in book and not "Ezra" in book:
                             self.bible_base[book].append(g)
